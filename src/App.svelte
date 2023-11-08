@@ -1,7 +1,6 @@
 <script lang="ts">
-  import svelteLogo from './assets/svelte.svg'
   import Counter from './lib/Counter.svelte';
-  import viteLogo from '/vite.svg'
+  import UpdateObjTest from './lib/UpdateObjTest.svelte';
 </script>
 
 <main>
@@ -9,6 +8,9 @@
 
   <div class="card">
     <Counter />
+  </div>
+  <div class="card">
+    <UpdateObjTest />
   </div>
 </main>
 
