@@ -1,15 +1,24 @@
 <script lang="ts">
-  import Counter from './lib/counter.svelte';
-  import UpdateObjTest from './lib/update-obj-test.svelte';
+  import IfElse from './lib/if-else.svelte';
+  import Props from './lib/props.svelte';
+  import StateAndReactivity from './lib/state-and-reactivity.svelte';
+  import UpdateObj from './lib/update-obj.svelte';
 </script>
 
 <main>
   <h1>Vite + Svelte</h1>
 
   <div class="card">
-    <Counter />
+    <StateAndReactivity />
   </div>
   <div class="card">
-    <UpdateObjTest />
+    <UpdateObj />
+  </div>
+  <div class="card">
+    <Props />
+    <Props name="Kim" />
+  </div>
+  <div class="card">
+    <IfElse />
   </div>
 </main>
